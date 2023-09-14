@@ -8,10 +8,10 @@ namespace CoderC.Desafios
 {
     public class ProductoVendido
     {
-        protected int id;
-        protected string idProducto;
-        protected double stock;
-        protected string idVenta;
+        public int id { get; set; }
+        public string idProducto { get; set; }
+        public double stock { get; set; }
+        public string idVenta { get; set; }
 
         public PoductoVendido(int id, string idProducto, double stock, string idVenta)
         {

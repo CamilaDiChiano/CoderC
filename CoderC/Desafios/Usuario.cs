@@ -8,12 +8,12 @@ namespace CoderC.Desafios
 {
     public class Usuario
     {
-        protected int id;
-        protected string nombre;
-        protected string apellido;
-        protected string nombreUsuario;
-        protected string contraseña;
-        protected string mail;
+        public int id { get; set;}
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public string nombreUsuario { get; set; }
+        public string contraseña { get; set; }
+        public string mail { get; set; }
 
         public Usuario (int id, string nombre, string apellido,string nombreUsuario, string contraseña,string mail)
         {

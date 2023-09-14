@@ -8,9 +8,9 @@ namespace CoderC.Desafios
 {
     public class Venta
     {
-        protected int id;
-        protected string comentarios;
-        protected string idUsuario;
+        public int id { get; set; }
+        public string comentarios { get; set; }
+        public string idUsuario { get; set; }
 
         public Venta(int id, string comentarios, string idUsuario)
         {
